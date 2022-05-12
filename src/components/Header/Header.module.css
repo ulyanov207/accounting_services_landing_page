@@ -1,13 +1,20 @@
-.modal-title {
+.modalTitle {
     font-family: Lato, Arial, serif;
     font-weight: black;
 }
 /*.header {*/
 /*  background-color: black;*/
 /*}*/
-.header_logo-link {
-    padding-top: 33px;
-}
-.header_logo-pic {
-    padding-right: 30px;
+/*.header_logo-link {*/
+/*    padding-top: 33px;*/
+/*}*/
+/*.header_logo-pic {*/
+/*    padding-right: 30px;*/
+/*}*/
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
 }
