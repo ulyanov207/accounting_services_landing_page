@@ -6,7 +6,7 @@ import BuhOne from "../../img/svg/BuhOne.svg";
 const Header = () => {
     return (
             <div className={s.header}>
-                <div className={s.headerLogo}>
+                <div className={s.header_logo}>
                     <a href="/" className={s.header_logo_link}>
                     <img src={logo} alt="logo" className={s.header_logo_pic}/>
                         <img src={BuhOne} alt="BuhOne" className={s.header_BuhOne_pic}/>
