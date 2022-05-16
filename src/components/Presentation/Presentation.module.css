@@ -1,0 +1,26 @@
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background: no-repeat;
+    height: 670px;
+    background-size: cover;
+}
+
+/*.intro_img {*/
+/*    background-image: inherit;*/
+/*    background-size: cover;*/
+/*}*/
+
+h1 {
+    position: absolute;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    padding-top: 170px;
+    padding-left: 405px;
+    margin-top: 0;
+    color: #FFFFFF
+}
