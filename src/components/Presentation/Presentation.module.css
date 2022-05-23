@@ -7,10 +7,10 @@
     background-size: cover;
 }
 
-/*.intro_img {*/
-/*    background-image: inherit;*/
-/*    background-size: cover;*/
-/*}*/
+.intro_img {
+    background-image: inherit;
+    background-size: cover;
+}
 
 h1 {
     position: absolute;

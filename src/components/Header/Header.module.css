@@ -1,35 +1,95 @@
-/*.modal_title {*/
-/*    font-family: Lato, Arial, serif;*/
-/*    font-weight: black;*/
-/*}*/
 .header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: space-between;
-    height: 110px;
+    display: grid;
+    width: 1920px;
+    padding-right: 399px;
 }
+
 .header_logo {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    align-self: start;
+    justify-self: start;
+    height: 110px;
     padding-left: 405px;
     padding-bottom: 34px;
 }
+
 .header_logo_pic {
     padding-right: 30px;
     padding-top: 33px;
 }
-.header_list {
+
+.contact {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    justify-self: end;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    width: 671px;
 }
+
+.header_phone {
+    order: 1;
+}
+
+.header_room {
+    padding-top: 22px;
+}
+
+.header_watch {
+    order: 2;
+    padding-left: 30px;
+
+}
+
+.header_mail {
+    order: 3;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.header_mail_address {
+    padding-top: 40px;
+}
+
+.header_location {
+    order: 4;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.header_address {
+    padding-top: 40px;
+}
+
+.header_nav {
+    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    align-self: end;
+    justify-self: end;
+    display: flex;
+    flex-direction: row;
+    width: 671px;
+    height: 17px;
+    left: 850px;
+    top: 62px;
+    padding-inline-start: 0
+}
+
 .header_item {
     margin-right: 68px;
     list-style-type: none;
-    /*margin-bottom: 31px;*/
-    /*padding-top: 62px;*/
 }
+
 .header_item:last-child {
     margin-right: 0;
 }
+
 .header_link {
     font-family: Lato;
     font-style: normal;
@@ -41,15 +101,14 @@
     text-decoration: none;
     color: #222222;
 }
-.header_nav {
-    padding-right: 399px;
-    /*padding-top: 62px;*/
 
-    /*position: fixed;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*width: 100%;*/
+.header_item_c {
+    margin-right: 51px;
+    list-style-type: none;
+    white-space: nowrap;
 }
-.header_link:hover,.header_link:focus,.header_link:active {
+
+.header_link:hover, .header_link:focus, .header_link:active {
     opacity: .75;
 }
+
