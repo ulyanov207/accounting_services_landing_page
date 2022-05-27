@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 import Header from "./components/Header/Header";
 import Presentation from "./components/Presentation/Presentation";
+import Services from "./components/Services/Services";
 
 
 const App = () => {
@@ -9,6 +10,7 @@ const App = () => {
         <div className="wrapper">
             <Header/>
             <Presentation/>
+            <Services/>
         </div>
     );
 };

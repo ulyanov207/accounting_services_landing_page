@@ -1,0 +1,60 @@
+.services_block {
+    position: relative;
+    width: 1920px;
+    height: 1242px;
+    background: #EBEBEB;
+}
+.services {
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+    width: 445px;
+    height: 23px;
+    left: 405px;
+    top: 140px;
+}
+.specialization {
+    position: absolute;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+    width: 663px;
+    height: 47px;
+    left: 407px;
+    top: 203px;
+}
+.services_wrapper {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: start;
+    align-content: start;
+    gap: 30px;
+    left: 405px;
+    top: 352px;
+}
+
+.services_item {
+    position: relative;
+}
+
+.services_text {
+    position: absolute;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    top: 261px;
+    left: 45px;
+}
+
+

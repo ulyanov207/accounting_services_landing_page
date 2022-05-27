@@ -53,6 +53,7 @@
   url('./fonts/merriweather-v30-latin-900.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
   url('./fonts/merriweather-v30-latin-900.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 html {
   box-sizing: border-box;
 }
@@ -60,16 +61,3 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 1920px;
-  margin: 0;
-
-  /*font-size: 16px;*/
-  /*line-height: 1.2;*/
-  /*font-weight: normal;*/
-  /*color: black;*/
-  /*-webkit-font-smoothing: antialiased;*/
-  /*-moz-osx-font-smoothing: grayscale;*/
-}
