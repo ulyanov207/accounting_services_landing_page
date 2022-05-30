@@ -3,6 +3,7 @@ import './App.css'
 import Header from "./components/Header/Header";
 import Presentation from "./components/Presentation/Presentation";
 import Services from "./components/Services/Services";
+import Company from "./components/Company/Company";
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
             <Header/>
             <Presentation/>
             <Services/>
+            <Company/>
         </div>
     );
 };

@@ -31,7 +31,7 @@
     top: 203px;
 }
 .services_wrapper {
-    position: relative;
+    position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 350px);
     justify-content: start;

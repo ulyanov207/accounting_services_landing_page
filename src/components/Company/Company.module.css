@@ -1,0 +1,138 @@
+.wrapper {
+    position: relative;
+    width: 1920px;
+    height: 844px;
+}
+
+.text {
+    position: absolute;
+    width: 155px;
+    height: 23px;
+    left: 405px;
+    top: 140px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+}
+
+.company {
+    position: absolute;
+    width: 347px;
+    height: 117px;
+    left: 407px;
+    top: 203px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+}
+
+.company_ivanov {
+    color: #005FA3;
+}
+
+.text_lorem {
+    position: absolute;
+    width: 445px;
+    height: 245px;
+    left: 405px;
+    top: 380px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.wrapper_block {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 540px;
+    left: 975px;
+    top: 164px;
+}
+
+
+.block {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    background: #EBEBEB;
+    color: #000000;
+}
+
+.counter {
+    position: absolute;
+    width: 75px;
+    height: 54px;
+    top: 30px;
+    left: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 66px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.transaction {
+    position: absolute;
+    width: 107px;
+    height: 37px;
+    top: 114px;
+    left: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.cases {
+    position: absolute;
+    width: 67px;
+    height: 17px;
+    top: 198px;
+    left: 40px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    color: #005FA3;
+}
+
+.cases:link, .cases:visited, .cases:hover, .cases:active {
+    opacity: 0.4;
+}
+
+.block_active {
+    position: relative;
+    width: 255px;
+    height: 255px;
+    background: #005FA3;
+    color: #FFFFFF;
+}
+
+.cases_active {
+    position: absolute;
+    top: 198px;
+    left: 40px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+}
+
+.cases_active:link, .cases_active:visited, .cases_active:hover, .cases_active:active {
+    opacity: 0.4;
+}
