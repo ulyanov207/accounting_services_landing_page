@@ -5,6 +5,7 @@ import Presentation from "./components/Presentation/Presentation";
 import Services from "./components/Services/Services";
 import Company from "./components/Company/Company";
 import Clients from "./components/Clients/Clients";
+import Reviews from "./components/Reviews/Reviews";
 
 
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
             <Services/>
             <Company/>
             <Clients/>
+            <Reviews/>
         </div>
     );
 };

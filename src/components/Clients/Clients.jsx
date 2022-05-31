@@ -18,10 +18,10 @@ const Clients = () => {
                 <div><img src={Microsoft}/></div>
             </div>
             <div>
-            <div><img src={Ellipse} className={s.ellipse1}/></div>
-            <div><img src={Ellipse} className={s.ellipse2}/></div>
-            <div><img src={Ellipse1} className={s.ellipse3}/></div>
-            <div><img src={Ellipse} className={s.ellipse4}/></div>
+                <div><img src={Ellipse} className={s.ellipse1}/></div>
+                <div><img src={Ellipse} className={s.ellipse2}/></div>
+                <div><img src={Ellipse1} className={s.ellipse3}/></div>
+                <div><img src={Ellipse} className={s.ellipse4}/></div>
             </div>
             <div>
                 <a className={s.slider_control_prev} href="#!" role="button"></a>
