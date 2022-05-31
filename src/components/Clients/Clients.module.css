@@ -1,0 +1,100 @@
+.wrapper {
+    position: relative;
+    width: 1920px;
+    height: 630px;
+    background: #EBEBEB
+}
+.clients_our {
+    position: absolute;
+    width: 350px;
+    height: 23px;
+    left: 405px;
+    top: 100px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #BDBDBD;
+}
+.clients_work {
+    position: absolute;
+    width: 483px;
+    height: 47px;
+    left: 407px;
+    top: 163px;
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 69px;
+    color: #333333;
+}
+.microsoft {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    left: 405px;
+    top: 290px;
+    height: 1140px;
+    gap: 30px;
+}
+.ellipse1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 405px;
+    top: 520px;
+    opacity: 0.4;
+}
+.ellipse2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 455px;
+    top: 520px;
+    opacity: 0.4;
+}
+.ellipse3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 505px;
+    top: 520px;
+}
+.ellipse4 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 555px;
+    top: 520px;
+    opacity: 0.4;
+}
+.slider_control_prev {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1395px;
+    top: 470px;
+    background: #005FA3;
+    opacity: 0.2;
+}
+.slider_control_next {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1455px;
+    top: 470px;
+    background: #005FA3
+}
+.vector {
+    position: absolute;
+    top: 492px;
+    right: 491px;
+}
+.vector1{
+    position: absolute;
+    top: 492px;
+    right: 431px;
+}
+

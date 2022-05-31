@@ -1,15 +1,15 @@
 import React from 'react';
 import s from './Header.module.css'
-import logo from "../../img/svg/header/logo.svg";
-import BuhOne from "../../img/svg/header/BuhOne.svg";
-import phone from "../../img/svg/header/phone.svg"
-import room_phone from "../../img/svg/header/room_phone.svg"
-import watch from "../../img/svg/header/watch.svg"
-import office_hours from "../../img/svg/header/office_hours.svg"
-import mail from "../../img/svg/header/mail.svg"
-import mail_address from "../../img/svg/header/mail_address.svg"
-import location from "../../img/svg/header/location.svg"
-import address from "../../img/svg/header/address.svg"
+import logo from "../../img/svg/Header/logo.svg";
+import BuhOne from "../../img/svg/Header/BuhOne.svg";
+import phone from "../../img/svg/Header/phone.svg"
+import room_phone from "../../img/svg/Header/room_phone.svg"
+import watch from "../../img/svg/Header/watch.svg"
+import office_hours from "../../img/svg/Header/office_hours.svg"
+import mail from "../../img/svg/Header/mail.svg"
+import mail_address from "../../img/svg/Header/mail_address.svg"
+import location from "../../img/svg/Header/location.svg"
+import address from "../../img/svg/Header/address.svg"
 
 const Header = () => {
     return (

@@ -1,9 +1,9 @@
 import React from 'react';
 import s from './Presentation.module.css'
 import Rectangle from "./../../img/Rectangle.jpg";
-import Ellipse from "../../img/svg/presentation/Ellipse.svg"
-import Vector1 from "../../img/svg/presentation/Vector1.svg"
-import Vector2 from "../../img/svg/presentation/Vector2.svg"
+import Ellipse from "../../img/svg/Presentation/Ellipse.svg"
+import Vector1 from "../../img/svg/Presentation/Vector1.svg"
+import Vector2 from "../../img/svg/Presentation/Vector2.svg"
 
 
 const Presentation = () => {
