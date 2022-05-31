@@ -6,6 +6,8 @@ import Services from "./components/Services/Services";
 import Company from "./components/Company/Company";
 import Clients from "./components/Clients/Clients";
 import Reviews from "./components/Reviews/Reviews";
+import Сontacts from "./components/Сontacts/Сontacts";
+import Footer from "./components/Footer/Footer";
 
 
 const App = () => {
@@ -17,6 +19,8 @@ const App = () => {
             <Company/>
             <Clients/>
             <Reviews/>
+            <Сontacts/>
+            <Footer/>
         </div>
     );
 };
