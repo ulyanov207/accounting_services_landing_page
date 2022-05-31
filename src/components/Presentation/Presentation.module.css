@@ -103,12 +103,11 @@ h1 {
 .vector1 {
     position: absolute;
     top: 519px;
-    right: 491px;
-
+    left: 1422px;
 }
 
 .vector2 {
     position: absolute;
     top: 519px;
-    right: 431px;
+    left: 1482px;
 }
