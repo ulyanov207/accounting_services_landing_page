@@ -28,23 +28,34 @@ const Header = () => {
                 <div><img src={location} alt="location" className={s.header_location}/></div>
                 <div><img src={address} alt="address" className={s.header_address}/></div>
             </div>
-            <ul className={s.header_nav}>
-                <li className={s.header_item}>
-                    <a href="#!" className={s.header_link}>Главная</a>
-                </li>
-                <li className={s.header_item}>
-                    <a href="#!" className={s.header_link}>услуги</a>
-                </li>
-                <li className={s.header_item}>
-                    <a href="#!" className={s.header_link}>кейсы</a>
-                </li>
-                <li className={s.header_item_c}>
-                    <a href="#!" className={s.header_link}>о компании</a>
-                </li>
-                <li className={s.header_item}>
-                    <a href="#!" className={s.header_link}>контакты</a>
-                </li>
-            </ul>
+            <div>
+                <ul className={s.header_nav}>
+                    <li className={s.header_item}>
+                        <a href="#!" className={s.header_link}>Главная</a>
+                    </li>
+                    <li className={s.header_item}>
+                        <a href="#!" className={s.header_link}>услуги</a>
+                    </li>
+                    <li className={s.header_item}>
+                        <a href="#!" className={s.header_link}>кейсы</a>
+                    </li>
+                    <li className={s.header_item_c}>
+                        <a href="#!" className={s.header_link}>о компании</a>
+                    </li>
+                    <li className={s.header_item}>
+                        <a href="#!" className={s.header_link}>контакты</a>
+                    </li>
+                </ul>
+                <div className={s.nav_close}>
+                    <span className={s.nav_close_line}></span>
+                    <span className={s.nav_close_line}></span>
+                </div>
+            </div>
+            <div className={s.header_burger}>
+                <span className={s.burger_line + ' ' + s.burger_line_first}></span>
+                <span className={s.burger_line + ' ' + s.burger_line_second}></span>
+                <span className={s.burger_line + ' ' + s.burger_line_third}></span>
+            </div>
         </div>
     );
 };

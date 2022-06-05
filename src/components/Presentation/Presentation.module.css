@@ -1,6 +1,7 @@
 .intro {
     position: relative;
     background: no-repeat;
+    width: 1920px;
     height: 670px;
     background-size: cover;
 }

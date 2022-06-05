@@ -56,8 +56,13 @@
 
 html {
   box-sizing: border-box;
+  width: 1920px;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+* {
+  margin: 0;
+}

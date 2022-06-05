@@ -111,6 +111,7 @@
     line-height: 17px;
     text-decoration-line: underline;
     color: #005FA3;
+    cursor: pointer;
 }
 
 .cases:link, .cases:visited, .cases:hover, .cases:active {
@@ -131,6 +132,7 @@
     left: 40px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .cases_active:link, .cases_active:visited, .cases_active:hover, .cases_active:active {
