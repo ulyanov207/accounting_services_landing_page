@@ -1,4 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+/*html, body {*/
+    /*width: 1920px;*/
+    /*overflow: hidden;*/
+    /*width: 100%;*/
+/*}*/
+
 .wrapper {
-  max-width: 1920px;
-  background: #F9F9F9;
+    /*background: #e81c1c;*/
+    background: #F9F9F9;
 }

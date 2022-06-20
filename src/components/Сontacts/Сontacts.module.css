@@ -8,6 +8,10 @@
 .intro_img {
     background-image: inherit;
     background-size: cover;
+
+    /*height: auto;*/
+    /*max-width: 100%;*/
+    /*width: auto;*/
 }
 
 .connection {

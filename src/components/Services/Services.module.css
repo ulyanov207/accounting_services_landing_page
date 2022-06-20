@@ -1,11 +1,12 @@
 .services_block {
-    position: relative;
-    width: 1920px;
     height: 1242px;
     background: #EBEBEB;
+    display: grid;
+    justify-content: center;
+    align-content: start;
 }
+
 .services {
-    position: absolute;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
@@ -14,11 +15,10 @@
     color: #BDBDBD;
     width: 445px;
     height: 23px;
-    left: 405px;
-    top: 140px;
+    margin-top: 140px;
 }
+
 .specialization {
-    position: absolute;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 900;
@@ -27,18 +27,14 @@
     color: #333333;
     width: 663px;
     height: 47px;
-    left: 407px;
-    top: 203px;
+    margin-top: 40px;
 }
+
 .services_wrapper {
-    position: absolute;
     display: grid;
     grid-template-columns: repeat(3, 350px);
-    justify-content: start;
-    align-content: start;
     gap: 30px;
-    left: 405px;
-    top: 352px;
+    margin-top: 102px;
 }
 
 .services_item {
