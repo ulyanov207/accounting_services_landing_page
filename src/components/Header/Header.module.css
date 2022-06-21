@@ -1,85 +1,52 @@
 .header {
-    display: grid;
-    padding-right: 399px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 31px;
+    padding-top: 22px;
+    max-width: 1116px;
+    margin: 0 auto;
 }
 
 .header_logo {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 1;
-    align-self: start;
-    justify-self: start;
-    height: 110px;
-    padding-left: 405px;
-    padding-bottom: 34px;
+    padding-top: 13px;
 }
 
 .header_logo_pic {
     padding-right: 30px;
-    padding-top: 33px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 57px;
+    margin-left: auto;
 }
 
 .contact {
-    grid-row-start: 1;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    justify-self: end;
     display: flex;
     flex-direction: row;
     align-items: baseline;
     justify-content: space-between;
-    width: 671px;
-}
-
-.header_phone {
-    order: 1;
-}
-
-.header_room {
-    padding-top: 22px;
 }
 
 .header_watch {
-    order: 2;
     padding-left: 30px;
-
 }
 
 .header_mail {
-    order: 3;
-    padding-top: 40px;
     padding-left: 30px;
-}
-
-.header_mail_address {
-    padding-top: 40px;
 }
 
 .header_location {
-    order: 4;
-    padding-top: 40px;
     padding-left: 30px;
 }
 
-.header_address {
-    padding-top: 40px;
-}
-
 .header_nav {
-    position: absolute;
-    padding-top: 22px;
-    grid-row-start: 1;
-    grid-column-start: 2;
-    grid-column-end: 2;
-    align-self: end;
-    justify-self: end;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 671px;
-    height: 17px;
-    left: 850px;
-    top: 62px;
     padding-inline-start: 0
 }
 
@@ -113,6 +80,8 @@
     opacity: .75;
 }
 
+/*БУРГЕР*/
+
 .header_burger {
     position: relative;
     top: 20px;
@@ -145,6 +114,8 @@
 .burger_line_third {
     bottom: 0;
 }
+
+/*АДАПТИВ */
 
 @media screen and (max-width: 767px) {
     .header_burger {
