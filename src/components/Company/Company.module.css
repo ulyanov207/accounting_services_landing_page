@@ -1,35 +1,37 @@
 .wrapper {
     position: relative;
-    /*width: 1920px;*/
     height: 844px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    height: 564px;
+    margin-right: 125px;
 }
 
 .text {
-    position: absolute;
-    width: 155px;
-    height: 23px;
-    left: 405px;
-    top: 140px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 33px;
     color: #BDBDBD;
+    margin-bottom: 40px;
 }
 
 .company {
-    position: absolute;
-    width: 347px;
-    height: 117px;
-    left: 407px;
-    top: 203px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
     line-height: 69px;
     color: #333333;
+    margin-bottom: 60px;
 }
 
 .company_ivanov {
@@ -37,11 +39,6 @@
 }
 
 .text_lorem {
-    position: absolute;
-    width: 445px;
-    height: 245px;
-    left: 405px;
-    top: 380px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -51,14 +48,12 @@
 }
 
 .wrapper_block {
-    position: absolute;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 24px;
     gap: 30px;
     width: 540px;
-    left: 975px;
-    top: 164px;
 }
 
 
