@@ -8,7 +8,7 @@ import Vector2 from "../../img/svg/Presentation/Vector2.svg"
 
 const Presentation = () => {
 
-    // менее используемый аналог media-queres
+    // менее используемый аналог media-queries
     const [mobile, setMobile] = React.useState(false)
 
     useEffect(() => {

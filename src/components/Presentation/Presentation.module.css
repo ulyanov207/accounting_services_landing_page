@@ -13,16 +13,6 @@
     background-size: cover;
 }
 
-.presentationServices {
-    /*font-family: 'Merriweather';*/
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 66px;
-    color: #FFFFFF;
-    margin-bottom: 260px;
-}
-
 .presentationContainer {
     position: absolute;
     display: flex;
@@ -34,6 +24,16 @@
 .presentationContainerLeft {
     display: flex;
     flex-direction: column;
+}
+
+.presentationServices {
+    /*font-family: 'Merriweather';*/
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 66px;
+    color: #FFFFFF;
+    margin-bottom: 260px;
 }
 
 .presentation {

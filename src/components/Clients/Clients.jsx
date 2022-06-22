@@ -9,28 +9,34 @@ import Vector1 from "../../img/svg/Clients/Vector1.svg";
 const Clients = () => {
     return (
         <div className={s.wrapper}>
-            <div className={s.clients_our}>Наши клиенты</div>
-            <div className={s.clients_work}>С нами работают</div>
-            <div className={s.microsoft}>
-                <div><img src={Microsoft}/></div>
-                <div><img src={Microsoft}/></div>
-                <div><img src={Microsoft}/></div>
-                <div><img src={Microsoft}/></div>
-            </div>
-            <div>
-                <div><img src={Ellipse} className={s.ellipse1}/></div>
-                <div><img src={Ellipse} className={s.ellipse2}/></div>
-                <div><img src={Ellipse1} className={s.ellipse3}/></div>
-                <div><img src={Ellipse} className={s.ellipse4}/></div>
-            </div>
-            <div>
-                <a className={s.slider_control_prev} href="#!" role="button"></a>
-                <a className={s.slider_control_next} href="#!" role="button"></a>
-                <div><img src={Vector} className={s.vector}/></div>
-                <div><img src={Vector1} className={s.vector1}/></div>
+            <div className={s.wrapper_s}>
+                <div className={s.wrapper_block}>
+                    <div className={s.clients_our}>Наши клиенты</div>
+                    <div className={s.clients_work}>С нами работают</div>
+                    <div className={s.microsoft}>
+                        <div><img src={Microsoft}/></div>
+                        <div><img src={Microsoft}/></div>
+                        <div><img src={Microsoft}/></div>
+                        <div><img src={Microsoft}/></div>
+                    </div>
+                    <div className={s.slider_indicators}>
+                        <div><img src={Ellipse} className={s.ellipse}/></div>
+                        <div><img src={Ellipse} className={s.ellipse}/></div>
+                        <div><img src={Ellipse1} className={s.ellipse_active}/></div>
+                        <div><img src={Ellipse} className={s.ellipse}/></div>
+                    </div>
+                </div>
+                <div className={s.container_slider}>
+                    <a className={s.slider_control_prev} href="#!" role="button">
+                        <div><img src={Vector}/></div>
+                    </a>
+                    <a className={s.slider_control_next} href="#!" role="button">
+                        <div><img src={Vector1}/></div>
+                    </a>
+                </div>
             </div>
         </div>
-    );
+    )
 };
 
 export default Clients;
