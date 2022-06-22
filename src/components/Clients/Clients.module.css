@@ -3,12 +3,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 630px;
+    height: 650px;
     background: #EBEBEB;
 }
 
 .wrapper_s {
-    position: absolute;
     display: flex;
     align-items: end;
     width: 1110px;

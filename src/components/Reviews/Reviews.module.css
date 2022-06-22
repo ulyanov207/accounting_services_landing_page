@@ -1,52 +1,50 @@
 .wrapper {
-    position: relative;
-    /*width: 1920px;*/
+    display: flex;
+    flex-direction: column;
     height: 900px;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper_block {
+    display: flex;
+    flex-direction: column;
 }
 
 .reviews {
-    position: absolute;
-    width: 350px;
-    height: 23px;
-    left: 405px;
-    top: 140px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
     line-height: 33px;
     color: #BDBDBD;
+    margin-bottom: 40px;
 }
 
 .thanks {
-    position: absolute;
-    width: 633px;
-    height: 47px;
-    left: 407px;
-    top: 203px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 900;
     font-size: 48px;
     line-height: 69px;
     color: #333333;
+    margin-bottom: 80px;
 }
 
 .reviews_text {
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 1110px;
     height: 320px;
-    left: 405px;
-    top: 330px;
     background: #EBEBEB
 }
 
 .text {
-    position: absolute;
+    display: flex;
+    margin-left: 95px;
+    margin-bottom: 58px;
     width: 920px;
-    height: 92px;
-    left: 95px;
-    top: 45px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -56,75 +54,53 @@
 }
 
 .reviews_avatar {
-    position: absolute;
-    width: 340px;
-    height: 80px;
-    left: 95px;
-    top: 195px;
+    margin-left: 95px;
 }
 
-.ellipse1 {
-    position: absolute;
+.slider {
+    display: flex;
+    width: 1110px;
+    align-items: end;
+    margin-top: 50px;
+}
+
+.slider_indicators {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+}
+
+.ellipse {
     width: 10px;
     height: 10px;
-    left: 405px;
-    top: 750px;
     opacity: 0.4;
 }
 
-.ellipse2 {
-    position: absolute;
+.ellipse_active {
     width: 10px;
     height: 10px;
-    left: 455px;
-    top: 750px;
-    opacity: 0.4;
 }
 
-.ellipse3 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 505px;
-    top: 750px;
-}
-
-.ellipse4 {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    left: 555px;
-    top: 750px;
-    opacity: 0.4;
+.container_slider {
+    display: flex;
+    margin-left: auto;
 }
 
 .slider_control_prev {
-    position: absolute;
     width: 60px;
     height: 60px;
-    left: 1395px;
-    top: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: #005FA3;
     opacity: 0.2;
 }
 
 .slider_control_next {
-    position: absolute;
     width: 60px;
     height: 60px;
-    left: 1455px;
-    top: 700px;
-    background: #005FA3;
-}
-
-.vector {
-    position: absolute;
-    right: 490px;
-    top: 722px;
-}
-
-.vector1 {
-    position: absolute;
-    right: 430px;
-    top: 722px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #005FA3
 }
