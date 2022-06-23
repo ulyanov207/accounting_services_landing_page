@@ -3,23 +3,37 @@
     background: no-repeat;
     height: 670px;
     background-size: cover;
+    display: flex;
+    justify-content: center;
 }
 
 .intro_img {
     background-image: inherit;
     background-size: cover;
+}
 
-    /*height: auto;*/
-    /*max-width: 100%;*/
-    /*width: auto;*/
+.contactsContainer {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1116px;
+    margin-top: 135px;
+}
+
+.contactsContainerLeft {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 115px;
+}
+
+.containerTop {
+    display: flex;
+    flex-direction: column;
 }
 
 .connection {
-    position: absolute;
-    width: 445px;
-    height: 47px;
-    left: 407px;
-    top: 122px;
+    margin-bottom: 60px;
     font-family: 'Merriweather';
     font-style: normal;
     font-weight: 900;
@@ -29,11 +43,7 @@
 }
 
 .questions {
-    position: absolute;
-    width: 445px;
-    height: 43px;
-    left: 405px;
-    top: 229px;
+    margin-bottom: 80px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -42,44 +52,39 @@
     color: #FFFFFF;
 }
 
-.phone {
-    position: absolute;
-    left: 407px;
-    top: 352px;
+.containerBottom {
+    display: flex;
 }
 
 .number {
-    position: absolute;
-    width: 184px;
-    height: 29px;
-    left: 440px;
-    top: 352px;
+    margin-left: 16px;
+    margin-top: 4px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
     font-size: 21px;
     line-height: 29px;
     color: #FFFFFF;
+}
+
+.container_mail {
+    margin-left: 45px;
+
 }
 
 .mail1 {
     position: absolute;
-    left: 665px;
-    top: 351px;
 }
 
 .mail2 {
     position: absolute;
-    left: 669px;
-    top: 355px;
+    margin-left: 4px;
+    margin-top: 4px;
 }
 
 .email {
-    position: absolute;
-    width: 155px;
-    height: 29px;
-    left: 719px;
-    top: 352px;
+    margin-left: 56px;
+    margin-top: 4px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -88,40 +93,55 @@
     color: #FFFFFF;
 }
 
+
+.contactsContainerRight {
+    display: flex;
+    flex-direction: column;
+    margin-left: 101px;
+}
+
+.yourName {
+    display: flex;
+}
+
+.nameBlock {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.surnameBlock {
+    margin-left: 30px;
+}
+
+.messageBlock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
 .name {
-    position: absolute;
-    width: 125px;
-    height: 16px;
-    left: 975px;
-    top: 135px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
 
 .surname {
-    position: absolute;
-    width: 125px;
-    height: 16px;
-    left: 1260px;
-    top: 135px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 22px;
     color: #FFFFFF;
+    margin-bottom: 15px;
 }
 
 .name_name {
-    position: absolute;
-    width: 125px;
-    height: 21px;
-    left: 975px;
-    top: 166px;
+    margin-bottom: 15px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -131,11 +151,7 @@
 }
 
 .surname_surname {
-    position: absolute;
-    width: 125px;
-    height: 21px;
-    left: 1260px;
-    top: 166px;
+    margin-bottom: 15px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -145,29 +161,13 @@
 }
 
 .line {
-    position: absolute;
     width: 255px;
     height: 0px;
-    left: 975px;
-    top: 202px;
-    border: 1px solid #FFFFFF;
-}
-
-.line1 {
-    position: absolute;
-    width: 255px;
-    height: 0px;
-    left: 1260px;
-    top: 202px;
     border: 1px solid #FFFFFF;
 }
 
 .message {
-    position: absolute;
-    width: 125px;
-    height: 16px;
-    left: 975px;
-    top: 237px;
+    margin-bottom: 15px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
@@ -177,11 +177,7 @@
 }
 
 .your_message {
-    position: absolute;
-    width: 255px;
-    height: 21px;
-    left: 975px;
-    top: 268px;
+    margin-bottom: 84px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -190,21 +186,16 @@
     color: #BDBDBD;
 }
 
-.line2 {
-    position: absolute;
+.line1 {
     width: 540px;
     height: 0px;
-    left: 975px;
-    top: 373px;
     border: 1px solid #FFFFFF;
+    margin-bottom: 50px;
 }
 
 .send_message {
-    position: absolute;
     width: 270px;
     height: 60px;
-    left: 1245px;
-    top: 423px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;

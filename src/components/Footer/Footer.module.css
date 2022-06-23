@@ -1,15 +1,15 @@
 .wrapper {
-    position: relative;
     height: 110px;
-    /*width: 1920px;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1108px;
+    margin: 0 auto;
 }
 
 .footer_a {
-    position: absolute;
     width: 574px;
     height: 20px;
-    left: 407px;
-    top: 50px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
@@ -19,11 +19,8 @@
 }
 
 .footer_b {
-    position: absolute;
     width: 401px;
     height: 20px;
-    right: 405px;
-    top: 50px;
     font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
